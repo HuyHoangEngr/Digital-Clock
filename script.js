@@ -6,11 +6,8 @@ let day = document.getElementById("day");
 
 setInterval(() => {
   time.innerHTML = new Date().toLocaleTimeString().substring(0, 5);
+  date.innerHTML = new Date().toLocaleDateString();
 }, 1000);
-
-// --------------------------------------------------------------------------------------------------
-
-date.innerHTML = new Date().toLocaleDateString();
 
 // --------------------------------------------------------------------------------------------------
 
