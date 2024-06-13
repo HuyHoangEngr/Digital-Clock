@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -30,10 +30,10 @@ body {
   height: 500px;
   width: 100%;
   color: white;
+  margin-top: -140px;
   font-size: 50rem;
-  font-weight: bold;
+  font-weight: 400;
   font-style: normal;
-  padding: 10px 10px 10px 10px;
   text-align: center;
 }
 
@@ -41,17 +41,17 @@ body {
   display: block;
   color: white;
   font-size: 10rem;
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
   text-align: center;
-  padding-top: 50px;
+  margin-top: 152px;
 }
 
 #date {
   display: block;
   color: white;
   font-size: 5rem;
-  font-weight: bold;
+  font-weight: 800;
   font-style: normal;
   text-align: center;
 }
@@ -63,8 +63,8 @@ body {
   bottom: 0;
   border: 1px solid red;
   width: 150px;
-  height: 50px;
-  padding: 6px 5px;
+  height: 55px;
+  padding: 2px 5px;
 }
 
 .author p {
